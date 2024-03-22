@@ -1,0 +1,10 @@
+C:\Users\Senpai\Documents\map\iabilet\iabilet\bin\Debug\iabilet.exe.config
+C:\Users\Senpai\Documents\map\iabilet\iabilet\bin\Debug\iabilet.exe
+C:\Users\Senpai\Documents\map\iabilet\iabilet\bin\Debug\iabilet.pdb
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.csproj.AssemblyReference.cache
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.Properties.Resources.resources
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.csproj.GenerateResource.cache
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.csproj.CoreCompileInputs.cache
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.exe
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.pdb
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.Form1.resources
