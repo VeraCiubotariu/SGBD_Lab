@@ -8,3 +8,7 @@ C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.csproj.CoreCompi
 C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.exe
 C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.pdb
 C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.Form1.resources
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.Form2.resources
+C:\Users\Senpai\Documents\map\iabilet\iabilet\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Senpai\Documents\map\iabilet\iabilet\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Senpai\Documents\map\iabilet\iabilet\obj\Debug\iabilet.csproj.CopyComplete

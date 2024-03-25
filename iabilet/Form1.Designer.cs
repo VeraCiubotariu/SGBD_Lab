@@ -41,6 +41,7 @@
             this.bandLabel = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.newFormButton = new System.Windows.Forms.Button();
             this.addGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,7 +82,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(468, 91);
+            this.deleteButton.Location = new System.Drawing.Point(468, 59);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 4;
@@ -97,7 +98,7 @@
             this.addGroupBox.Controls.Add(this.bandLabel);
             this.addGroupBox.Controls.Add(this.nameLabel);
             this.addGroupBox.Controls.Add(this.nameTextBox);
-            this.addGroupBox.Location = new System.Drawing.Point(427, 130);
+            this.addGroupBox.Location = new System.Drawing.Point(427, 97);
             this.addGroupBox.Name = "addGroupBox";
             this.addGroupBox.Size = new System.Drawing.Size(161, 161);
             this.addGroupBox.TabIndex = 5;
@@ -155,11 +156,22 @@
             this.nameTextBox.Size = new System.Drawing.Size(94, 20);
             this.nameTextBox.TabIndex = 0;
             // 
+            // newFormButton
+            // 
+            this.newFormButton.Location = new System.Drawing.Point(447, 275);
+            this.newFormButton.Name = "newFormButton";
+            this.newFormButton.Size = new System.Drawing.Size(126, 23);
+            this.newFormButton.TabIndex = 6;
+            this.newFormButton.Text = "Open master-detail form";
+            this.newFormButton.UseVisualStyleBackColor = true;
+            this.newFormButton.Click += new System.EventHandler(this.newFormButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.newFormButton);
             this.Controls.Add(this.addGroupBox);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.artistLabel);
@@ -173,6 +185,8 @@
             this.addGroupBox.PerformLayout();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button newFormButton;
 
         private System.Windows.Forms.ComboBox bandComboBox;
         private System.Windows.Forms.Button modifyButton;

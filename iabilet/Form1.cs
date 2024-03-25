@@ -15,6 +15,7 @@ namespace iabilet
     public partial class Form1 : Form, IObserver
     {
         private Service _service;
+
         public Form1()
         {
             InitializeComponent();
@@ -35,11 +36,11 @@ namespace iabilet
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error", 
+                MessageBox.Show(ex.Message, "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-            } 
-            
-            
+            }
+
+
             List<String> bandOptions = new List<string>();
             bandOptions.Add("Yes");
             bandOptions.Add("No");
@@ -58,7 +59,7 @@ namespace iabilet
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Error", 
+                    MessageBox.Show(ex.Message, "Error",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -72,28 +73,28 @@ namespace iabilet
         private void deleteButton_Click(object sender, EventArgs e)
         {
             Artist selectedArtist = (Artist)artistsListBox.SelectedItem;
-            
+
             try
             {
                 Console.WriteLine(selectedArtist.Id);
                 if (_service.DeleteArtist(selectedArtist) != null)
                 {
-                    /*MessageBox.Show("Artist deleted successfully", "Information", 
+                    /*MessageBox.Show("Artist deleted successfully", "Information",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);*/
                 }
 
                 else
                 {
-                    MessageBox.Show("Error deleting artist", "Error", 
+                    MessageBox.Show("Error deleting artist", "Error",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error", 
+                MessageBox.Show(ex.Message, "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }    
-            
+            }
+
         }
 
         public new void Update()
@@ -127,7 +128,7 @@ namespace iabilet
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error", 
+                MessageBox.Show(ex.Message, "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -142,9 +143,17 @@ namespace iabilet
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error", 
+                MessageBox.Show(ex.Message, "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void newFormButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+            this.Close();
         }
     }
 }
